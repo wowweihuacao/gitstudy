@@ -56,6 +56,13 @@
 - git push [地址] master
     - git push git@github.com:wowweihuacao/gitstudy.git
     -或者给远程仓库设置一个别名：git remote add origin git@github.com:wowweihuacao/gitstudy.git，以后提交，只用git push origin master
+    - 会把当前分支内容上传到远程master分支上
+
+--------------------
+- git pull [地址] 分支名称
+    -  git push git@github.com:wowweihuacao/gitstudy.git master
+    - 会把远程分支的数据得到：本地先需要一个初始仓库
+
 
 
 
