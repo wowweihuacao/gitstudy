@@ -52,6 +52,10 @@
     - git branch -d dev
     - 在当前分支删除当前分支是删不掉的
 
+### 提交代码到github
+- git push [地址] master
+    - git push git@github.com:wowweihuacao/gitstudy.git
+    -或者给远程仓库设置一个别名：git remote add origin git@github.com:wowweihuacao/gitstudy.git，以后提交，只用git push origin master
 
 
 
