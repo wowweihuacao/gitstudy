@@ -46,6 +46,10 @@
 - 合并把当前分支与指定分支进行合并
     - git merge dev
     - 当前分支至git branch 星号所在的分支
+### 删除分支
+- 在master分支删除指定分支dev
+    - git branch -d dev
+    - 在当前分支删除当前分支是删不掉的
 
 
 
