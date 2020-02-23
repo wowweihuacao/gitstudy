@@ -26,5 +26,26 @@
 - 回退到上次代码提交的状态
     - git reset --hard Head~0
 - 回退到上上次代码提交的状态
-    -  -git reset --hard Head~1
+    -  git reset --hard Head~1
+- 通过版本号精确回退到某次提交时的状态
+    - git reset --hard 版本号
+- 查看每一次切换版本的记录
+    - git reflog
+
+## 分支
+- 默认有个主分支master
+### 创建分支
+- 创建一个dev分支,分支创建时dev里内容和master内容是一样的
+    - git branch dev
+### 切换分支
+- 切换到dev分支
+    - git checkout dev
+- 查看当前有哪儿些分支
+    - git branch
+### 合并分支
+- 合并把当前分支与指定分支进行合并
+    - git merge dev
+    - 当前分支至git branch 星号所在的分支
+
+
 
