@@ -72,6 +72,18 @@
     -  git push git@github.com:wowweihuacao/gitstudy.git master
     - 会把远程分支的数据得到：本地先需要一个初始仓库
 
+### 向github提交代码
+    - 本地——>远程（本地有分支，远程没有）
+        - git push -u origin dev
+        - git push -set-upstream origin dev
+    - 远程到本地（远程有分支，本地没有分支）
+        1. git pull 指示从远程把追踪仓库放置本地  远程-》追踪，本地还没有
+        2. 追踪——》本地
+            - git checkout -b dev origin/dev
+            - git checkout -b test --track origin/test
+            - git checkout --track origin/test
+
+
 
 
 
