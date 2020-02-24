@@ -33,10 +33,12 @@
     - git reflog
 
 ## 分支
-- 默认有个主分支master
+- 默认有个主分支master,是一条commit链条
 ### 创建分支
 - 创建一个dev分支,分支创建时dev里内容和master内容是一样的
     - git branch dev
+- 创建并进入分支dev
+    - git checkout -b dev
 ### 切换分支
 - 切换到dev分支
     - git checkout dev
@@ -55,7 +57,7 @@
 ### 提交代码到github
 - git push [地址] master
     - git push git@github.com:wowweihuacao/gitstudy.git
-    -或者给远程仓库设置一个别名：git remote add origin git@github.com:wowweihuacao/gitstudy.git，以后提交，只用git push origin master
+    -或者给远程仓库设置一个别名：git remote add origin git@github.com:wowweihuacao/gitstudy.git，以后提交，第一次使用git push -u origin master建立关联，之后使用git push推送就行
     - 会把当前分支内容上传到远程master分支上
 
 --------------------
