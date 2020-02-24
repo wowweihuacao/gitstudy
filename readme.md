@@ -39,6 +39,11 @@
     - git branch dev
 - 创建并进入分支dev
     - git checkout -b dev
+- 新建一个分支，与指定的远程分支建立追踪关系
+    - $ git branch --track [branch] [remote-branch]
+- 建立追踪关系，在现有分支与指定的远程分支之间
+    - git branch --set-upstream [branch] [remote-branch]
+
 ### 切换分支
 - 切换到dev分支
     - git checkout dev
@@ -53,6 +58,8 @@
 - 在master分支删除指定分支dev
     - git branch -d dev
     - 在当前分支删除当前分支是删不掉的
+- 删除远程分支
+    - $ git push origin --delete [branch-name]
 
 ### 提交代码到github
 - git push [地址] master
